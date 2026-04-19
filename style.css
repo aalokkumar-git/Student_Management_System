@@ -1,0 +1,69 @@
+body {
+    background-color: antiquewhite;
+    
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Cards */
+.card {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/* Table */
+.table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Heading */
+h2 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    border: none;
+}
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.login-container input,
+.login-container button {
+    padding: 8px;
+    font-size: 16px;
+}
+footer {
+bottom: 0;
+width: 100%;
+left: 0;
+height: 30px;
+text-align: center;
+justify-content: center;
+display: flex;
+background-color: black;
+color: white;
+position: fixed;
+}
+footer p {
+margin: 0;
+}
